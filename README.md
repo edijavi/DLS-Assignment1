@@ -1,6 +1,6 @@
 # Project Title
 
-Scaling on the x-axis
+Scaling on the x-axis.
 
 ## Getting Started
 
