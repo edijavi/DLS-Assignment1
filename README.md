@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+Scaling on the x-axis
 
 ## Getting Started
 
@@ -72,7 +72,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Rafael García** - *Principal Developer* - [PurpleBooth](https://github.com/rafagarciac)
+* **Edison Lamar** - *Secundary Developer* - [PurpleBooth](https://github.com/edijavi)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
