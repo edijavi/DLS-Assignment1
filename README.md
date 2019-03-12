@@ -1,60 +1,32 @@
 # Scaling on The x-axis.
 
-Scaling.
+This report serves as auxiliary documentation to fully understand the work done in this compulsory assignment.
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Well, we will start by making a brief introduction to what is going to be seen next, in broad strokes we can divide the work done in 4 parts, which will be clearly denoted.
 
-### Prerequisites
 
-What things you need to install the software and how to install them
+## Back – End
 
-```
-Give examples
-```
+The objective of this Compulsory Assignment is to organize in an efficient way the search of files.
 
-### Installing
+###	 Indexation
 
-A step by step series of examples that tell you how to get a development env running
+The files are extracted and their words (determined by blank spaces) are cut through the ETL process performed by Crawler.
 
-Say what the step will be
+### Api Rest
 
-```
-Give the example
-```
+We use an Api with Django and Django Rest Framework to allow a Load Balance in the project, in addition to that our ETL process is programmed in Python, and django is an open source web application framework written in Python. The development environment of the Api has been Visual Studio Code.
 
-And repeat
 
-```
-until finished
-```
+## Front – End
 
-End with an example of getting some data out of the system or using it for a little demo
+The development of the Interface has been carried out in Angular 7 with the WebStorm development environment, and has two modules, one common and another containing the search engine.
 
-## Running the tests
+Finally, it is important to highlight the importance of the scalability that makes up the entire structure of the project. This application right now is designed to be 100% scalable, and in fact the next step would be this one.
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -63,24 +35,30 @@ Add additional notes about how to deploy this on a live system
 * [Django Framework v2.0](https://www.djangoproject.com/download/) - Dependency Management.
 * [Visual Studio Code](https://code.visualstudio.com/) - Dependency Management.
 
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
 
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
+
 ## Authors
 
-* **Rafael García** - *Principal Developer* - [PurpleBooth](https://github.com/rafagarciac)
+* **Miguel Ángel Herranz** - *Principal Developer* - [PurpleBooth](https://github.com/Sanperolo)
+* **Rafael García** - *Secundary Developer* - [PurpleBooth](https://github.com/rafagarciac)
 * **Edison Lamar** - *Secundary Developer* - [PurpleBooth](https://github.com/edijavi)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
 ## Acknowledgments
 
