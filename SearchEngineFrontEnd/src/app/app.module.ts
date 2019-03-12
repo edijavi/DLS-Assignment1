@@ -7,7 +7,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {SearchengineModule} from './searchengine/searchengine.module';
-import {MatSidenav, MatSidenavModule} from '@angular/material';
+import {MatIconModule, MatListModule, MatSidenav, MatSidenavModule} from '@angular/material';
 import {SharedModule} from './shared/shared.module';
 
 @NgModule({
@@ -19,6 +19,8 @@ import {SharedModule} from './shared/shared.module';
     BrowserAnimationsModule,
     MatButtonModule,
     MatSidenavModule,
+    MatListModule,
+    MatIconModule,
     SearchengineModule,
     SharedModule,
     AppRoutingModule

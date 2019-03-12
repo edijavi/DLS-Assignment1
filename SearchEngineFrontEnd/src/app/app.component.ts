@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SearchEngineFrontEnd';
+  routes = [
+    {route: '/', title: 'Home', icon: 'home'},
+    {route: 'searchengine', title: 'Search', icon: 'search'}
+    ];
+  navBarOpen = true;
+
+  toggleNav() {
+    this.navBarOpen = !this.navBarOpen;
+  }
 }
