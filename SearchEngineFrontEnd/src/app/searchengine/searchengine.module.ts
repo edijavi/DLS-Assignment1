@@ -2,16 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SearchComponent } from './search/search.component';
 import {SharedModule} from '../shared/shared.module';
-import {MatAutocompleteModule} from '@angular/material';
-import {FormsModule} from '@angular/forms';
+import {MatButtonModule, MatIconModule, MatInputModule, MatToolbarModule} from '@angular/material';
 
 @NgModule({
   declarations: [SearchComponent],
   imports: [
     CommonModule,
     SharedModule,
-    MatAutocompleteModule,
-    FormsModule
+    MatInputModule,
+    MatButtonModule,
+    MatIconModule,
+    MatToolbarModule
   ],
   exports: [SearchComponent]
 

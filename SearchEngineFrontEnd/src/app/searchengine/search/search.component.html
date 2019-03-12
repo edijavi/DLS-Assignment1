@@ -1,13 +1,13 @@
-<div>
-  <form class="example-form">
-    <mat-form-field class="example-full-width">
-      <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
-      <mat-autocomplete #auto="matAutocomplete">
-        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-          {{option}}
-        </mat-option>
-      </mat-autocomplete>
-    </mat-form-field>
-  </form>
-</div>
+ <mat-toolbar>
+  <mat-toolbar-row  style="margin-top: 50px">
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Type a word" value="any">
+        </mat-form-field>
+    </form>
+    <button mat-mini-fab color="warn">
+      <mat-icon>send</mat-icon>
+    </button>
+  </mat-toolbar-row>
+ </mat-toolbar>
 
