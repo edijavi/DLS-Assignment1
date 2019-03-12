@@ -1,8 +1,5 @@
-.main-container {
-  height: 100vh;
-}
 mat-sidenav{
-  background: #F7F9FA;
+  background: ghostwhite;
   width: 250px;
 }
 mat-sidenav-content{

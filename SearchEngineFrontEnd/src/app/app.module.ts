@@ -7,8 +7,9 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {SearchengineModule} from './searchengine/searchengine.module';
-import {MatIconModule, MatListModule, MatSidenav, MatSidenavModule} from '@angular/material';
+import {MatAutocompleteModule, MatIconModule, MatListModule, MatSidenav, MatSidenavModule} from '@angular/material';
 import {SharedModule} from './shared/shared.module';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,10 @@ import {SharedModule} from './shared/shared.module';
     MatSidenavModule,
     MatListModule,
     MatIconModule,
+    MatAutocompleteModule,
     SearchengineModule,
     SharedModule,
+    FlexLayoutModule,
     AppRoutingModule
   ],
   providers: [],

@@ -11,7 +11,6 @@ export class AppComponent {
     {route: 'searchengine', title: 'Search', icon: 'search'}
     ];
   navBarOpen = true;
-
   toggleNav() {
     this.navBarOpen = !this.navBarOpen;
   }
